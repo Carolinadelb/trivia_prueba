@@ -1,7 +1,15 @@
-window.onload = function() {
-    var name = prompt("¿cuál es tu nombre?");
-    document.getElementById("name").innerText = name;
+window.onload = function (){
 
+    boton-nombre.addEventListener("click",
+var user = document.getElementById ("userName"). value;
+
+var mensaje = document.getElementById("mensaje bienvenida");
+
+mensaje.innerHTML = "Hola " + user; 
+);
+}
+
+/*
     var wantToPlay = prompt("¿quieres jugar? s/n");
     if (wantToPlay.toLowerCase() == "s") {
         var answer1 = prompt("¿han egresado hombres en Laboratoria? s/n");
@@ -37,3 +45,5 @@ window.onload = function() {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
 }
+
+*/

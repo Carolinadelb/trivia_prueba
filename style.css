@@ -1,3 +1,12 @@
+body {
+    display: block;
+    text-align:center;
+    position:center
+    width:auto;
+    margin-top: 50px;
+    
+  
+  }
 #rightAnswers {
     background-color: rgb(136, 218, 210);
     width: 50%;
